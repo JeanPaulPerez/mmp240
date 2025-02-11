@@ -6,15 +6,13 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.contenedor{
-    text-align: center;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 3px greenyellow;
     border-radius: 5px;
-    border: solid green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:fit-content;
-    margin-left: 30%;
 }
 p{
     padding: 20px;
