@@ -1,0 +1,21 @@
+#wrapper{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding: 4em 2em;
+    background-color: aqua;
+    background:linear-gradient(90deg, rgba(0,255,132,0.6027004551820728) 0%, rgba(0,0,0,1) 100%),
+    url(images/Zaun.jpg) no-repeat right;
+    }
+.left{
+    color: white;
+    width: 40%;
+}
+.button{
+    color:white;
+    background-color: black;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
