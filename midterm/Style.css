@@ -3,7 +3,7 @@ html{
     background-color: black;
 }
 #wrapper{
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -64,7 +64,6 @@ footer{
 .episodes{
     display: flex;
     flex-wrap: wrap;
-
     }
 .episodes-cards{
     width: 270px;
@@ -80,4 +79,35 @@ footer{
 }
 .episodes-cards p, .episodes-cards h4{
     padding: 10px 0 0 0;
+}
+@media screen and (max-width: 660px){
+    header{
+        padding: 4em 2em;
+        background-color: aqua;
+        background:linear-gradient(360deg, rgba(0,255,132,0.6027004551820728) 0%, rgba(0,0,0,1) 100%),
+        url(images/Zaun.jpg) no-repeat right;
+        }
+        .left h1{
+            padding: 100px 0 0 0;
+        }
+        nav a{
+            display: inline-block;
+            color: white;
+            font-family:"poppins", serif;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: normal;
+            padding: 25px;
+            text-decoration: none;
+        }
+        main{
+            color: white;
+            padding: 25px;
+        }
+        .col{
+            width: 100%;
+            float:none;
+            margin: 0%;
+            padding: 0 0 20px 0;
+            }
 }
