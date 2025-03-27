@@ -13,6 +13,15 @@
       .layout img{
         width:100%;
       }
+      .layout{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 2%;
+      }
+      .one, .five{ 
+        grid-column-end:span 3 ;
+      }
     </style>
   </head>
   <body>
