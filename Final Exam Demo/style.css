@@ -147,7 +147,8 @@
   
   /* HERO BANNER */
   .hero-banner {
-    background: var(--grey-bg);
+    display: flex;
+    background: var(--grey-bg); 
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
@@ -155,8 +156,10 @@
   }
   
   .hero-content h1 {
-    font-size: 1.25rem;
-    margin-bottom: 0.75rem;
+    display: block;
+    margin: 30px 0 30px 0;
+    font-size: 35px;
+    margin-bottom: em;
   }
   
   .btn-apply {
@@ -170,11 +173,11 @@
   }
   
   .hero-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    justify-content: right;
+    align-items: right;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 3.5rem;
   }
   
   .hero-logos img {
