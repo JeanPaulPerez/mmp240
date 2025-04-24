@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design @ CUNY</title>
+  <!-- Reset CSS opcional -->
+  <link rel="stylesheet" href="reset.css">
+  <!-- Google Material Symbols para el icono de menú y búsqueda -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <!-- Tu CSS principal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header>
+      <!-- Título y toggle de menú móvil -->
+      <div class="logo-menu">
+        <h1 class="site-title">Design @ CUNY</h1>
+        <button id="menu-toggle" class="menu-btn" aria-label="Toggle Menu">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+
+      <!-- Logo CUNY -->
+      <div class="cuny-logo">
+        <img src="images/cuny-logo.png" alt="CUNY Logo">
+      </div>
+
+      <!-- Navegación -->
+      <nav id="top-nav" class="nav-closed">
+        <ul class="nav-links">
+          <li><a href="#">About CUNY</a></li>
+          <li><a href="#">Financial Aid</a></li>
+          <li><a href="#">Apply</a></li>
+        </ul>
+        <form class="nav-search" action="#" role="search">
+          <input type="search" placeholder="Search…" aria-label="Search">
+          <button type="submit" aria-label="Submit Search">
+            <span class="material-symbols-outlined">search</span>
+          </button>
+        </form>
+      </nav>
+    </header>
+
+    <!-- PROGRAMS FILTER -->
+    <section class="programs-filter">
+      <h2>Find a Design Program</h2>
+      <p class="search-by">Search by:</p>
+      <div class="dropdowns">
+        <div class="dropdown">
+          <label for="discipline">Discipline</label>
+          <select id="discipline">
+            <option>Graphic Design</option>
+            <option>Interior Design</option>
+            <option>Fashion Design</option>
+          </select>
+        </div>
+        <div class="dropdown">
+          <label for="degree">Degree</label>
+          <select id="degree">
+            <option>Associate</option>
+            <option>Bachelor’s</option>
+            <option>Certificate</option>
+          </select>
+        </div>
+        <div class="dropdown">
+          <label for="borough">Borough</label>
+          <select id="borough">
+            <option>Manhattan</option>
+            <option>Brooklyn</option>
+            <option>Queens</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO BANNER -->
+    <section class="hero-banner">
+      <div class="hero-content">
+        <h1>Queens College Ranked in Top 25 of Best Public Colleges and Universities for Graphic Design in the Nation</h1>
+        <a href="#" class="btn-apply">APPLY</a>
+      </div>
+      <div class="hero-logos">
+        <img src="images/queens-college-logo.png" alt="Queens College Logo">
+        <img src="images/cuny-logo.png" alt="CUNY Logo">
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div class="layout">
+        <!-- Design News -->
+        <section class="news">
+          <h2>Design News</h2>
+          <article>
+            <h3>CUNY TV Wins 21st New York Emmy Award For Animated Opening Sequence of ‘Shades of U.S.’</h3>
+            <time datetime="2020-04-27">April 27, 2020</time>
+            <p>The City University of New York won two awards in the 63rd New York Emmy Awards…</p>
+            <a href="#">Read More</a>
+          </article>
+          <article>
+            <h3>CUNY Expands Digital Skills Curriculum and Creates Student Pipeline for Tech Jobs</h3>
+            <time datetime="2019-10-28">October 28, 2019</time>
+            <p>The City University of New York has significantly expanded its digital skills curriculum…</p>
+            <a href="#">Read More</a>
+          </article>
+        </section>
+
+        <!-- Events -->
+        <section class="events">
+          <h2>Events</h2>
+          <img src="images/design-wordcloud.png" alt="Design Wordcloud">
+          <h3>Virtual Digital Design Showcase Day</h3>
+          <p><strong>Date:</strong> June 18, 2020</p>
+          <p><strong>Time:</strong> 2:00 PM — 4:00 PM</p>
+          <p><strong>College:</strong> Bronx Community College</p>
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Copyright © 2023 The City University of New York</p>
+    </footer>
+  </div>
+
+  <!-- JavaScript para toggle del menú -->
+  <script src="script.js"></script>
+</body>
+</html>
+
