@@ -1,6 +1,3 @@
-/* ================ MOBILE-FIRST ================= */
-/* Reset básico opcional */
-/* @import "reset.css"; */
 
 :root {
     --black: #000;
@@ -138,11 +135,11 @@
     align-items: center;
     justify-content: center;
     align-content: space-between;
-    gap: 25%;
+    gap:25%;
   }
   
   .dropdown label {
-    display: block;
+    display:flex;
     font-size: 0.9rem;
     margin-bottom: 0.25rem;
   }
