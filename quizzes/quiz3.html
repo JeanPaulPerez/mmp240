@@ -13,23 +13,37 @@
             padding:16px;
         }
 
-        .layout{
-            display:grid;
-            grid-template-rows: 300px 300px;
-            grid-template-columns: 33.3% 33.3% 33.3%;
-            grid-column-gap: 16px;
-            grid-row-gap:16px;
-        }
+        .layout {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 300px 300px;
+        gap: 16px;
+      }
 
-        .one{
-            background-color: aqua;
-            grid-column-start: 1;
-            grid-column-end: 4;
-        }
+      .one {
+        background-color: aqua;
+        grid-row: 1 / span 2; /* Ocupa dos filas */
+        grid-column: 1;
+      }
 
-        .two, .three, .four{
-            background-color:coral;
-        }
+      .two {
+        background-color: coral;
+        grid-row: 1;
+        grid-column: 2;
+      }
+
+      .three {
+        background-color: coral;
+        grid-row: 1;
+        grid-column: 3;
+      }
+
+      .four {
+        background-color: coral;
+        grid-row: 2;
+        grid-column: 2;
+      }
+
 
       </style>
 

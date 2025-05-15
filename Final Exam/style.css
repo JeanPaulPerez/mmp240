@@ -5,8 +5,6 @@
     --grey-bg: #ced0d9;
     --font-sans: 'Helvetica Neue', Arial, sans-serif;
   }
-  
-  *,
   *::before,
   *::after {
     box-sizing: border-box;
