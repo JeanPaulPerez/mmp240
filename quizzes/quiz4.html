@@ -6,31 +6,44 @@
     <title>Quiz 4</title>
 
     <style>
-      .colorboxes{
-        margin:100px;
-        width:500px;
+      .colorboxes {
+        margin: 100px;
+        width: 500px;
       }
-      .box{
-        padding:50px;
-        color:white;
-        text-align:center;
-      }
-      .redbox{
-        background-color:red;
-      }
-      .bluebox{
-        background-color:blue;
-      }
-      .greenbox{
-        background-color:green;
-      }
-      </style>
 
+      .row {
+        display: flex;
+      }
+
+      .box {
+        padding: 50px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .bluebox {
+        background-color: blue;
+        width: 30%;
+      }
+
+      .redbox {
+        background-color: red;
+        width: 100%;
+      }
+
+      .greenbox {
+        background-color: green;
+        width: 80%;
+      }
+    </style>
   </head>
   <body>
     <div class="colorboxes">
-      <div class="box redbox">RED</div>
-      <div class="box bluebox">BLUE</div>
+      <div class="row">
+        <div class="box bluebox">BLUE</div>
+        <div class="box redbox">RED</div>
+      </div>
       <div class="box greenbox">GREEN</div>
     </div>
   </body>
