@@ -22,7 +22,8 @@ p, h1, h2,h3,nav, article{
 
 h1{
   border: solid 8px;
-  background-color: #080726;
+  background-color: #000000;
+  border-radius: 20px;
 }
 
 h2{
@@ -186,6 +187,7 @@ main ul{
  transform:scale(1.05);
  box-shadow:5px 5px 10px #888;
  color: #0554F2;
+ border-radius: 20px;
 }
 
 .program-card img {
@@ -204,6 +206,9 @@ margin-bottom: 0.5em;
 
 .card img{
   width:100%;
+  border: #000000;
+  border-radius: 20px;
+  border:solid 2.5px;
 
 }
 
