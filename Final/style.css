@@ -50,6 +50,20 @@ h2{
   background-color: #00bfff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+.button-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */           /* Ocupa toda la altura de la ventana */
+}
+
+.apply-button {
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
 
 main a{
  color:#F20505;
